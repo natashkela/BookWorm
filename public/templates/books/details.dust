@@ -3,7 +3,7 @@
 {<body}
     <div class="row">
     <div class="large-4 columns">
-        <img src="/img/{book.cover}">
+        <img height="100" src="/img/{book.cover}">
     </div>
     <div class="large-8 columns">
         <h2>{book.title}</h2>
