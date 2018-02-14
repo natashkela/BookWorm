@@ -17,7 +17,7 @@ run the downloaded file.
 create a separate folder called mongo in desired location.  
 Afterwards add 2 folders for database data and log files. remember path to these folders you will need them.
 
-go to the folder where mongodb was installed. On windows default is ("C:/Program Files/MongoDB/Server/VERSION NUMBER/).
+go to the folder where mongodb was installed. On windows default path is `C:/Program Files/MongoDB/Server/VERSION NUMBER/`.
 access bin folder. For convenience you could add path to bin to environment variables. 
 
 run command 
