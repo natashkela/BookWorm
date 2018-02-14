@@ -22,7 +22,7 @@ access bin folder. For convenience you could add path to bin to environment vari
 
 run command 
 
-'mongod --directoryperdb --dbpath "PATH TO DATA FOLDER" --logpath "PATH TO LOG FOLDER" --logappend --install'
+`mongod --directoryperdb --dbpath "PATH TO DATA FOLDER" --logpath "PATH TO LOG FOLDER" --logappend --install`
 
 after mongod is started you can open second command line to open the mongo shell.
 
@@ -36,11 +36,11 @@ or simply run mongo in you have already added bin path to env variables.
 
 First Create collection.
 
-'db.CreateCollection('books');'
+`db.CreateCollection('books');`
 
 Afterwards add books to Collection. 
 
-'db.books.insert({title:"", description: "", category: "",author: "", publisher: "", price: "", cover: ""});'
+`db.books.insert({title:"", description: "", category: "",author: "", publisher: "", price: "", cover: ""});`
 
 don't forget to add cover images in public/img/ folder.
 
@@ -50,7 +50,7 @@ now we need to start the server and see the results.
 
 run "npm start" in root directory
 
-'npm start'
+`npm start`
 
 ### Enjoy.
 
