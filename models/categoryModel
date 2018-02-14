@@ -1,0 +1,11 @@
+'use strict';
+var mongoose = require('mongoose');
+var categoryModel = function(){
+    var categoryScheme = mongoose.Schema({
+        name:String
+    });
+    
+    return mongoose.model('Category',categoryScheme);
+};
+
+module.exports = new categoryModel();

@@ -1,0 +1,43 @@
+{>"layouts/master" /}
+{<title}
+	About TekBooks
+{/title}
+
+{<body}
+     <div class="row">
+      <div class="large-12 columns">
+        <h2>About Us</h2>
+        <p>
+        	The BookWarm online bookstore was created by 
+        	two genius and outsanding web developers: <strong>
+        	Vakhtang Margvelashvili</strong> and <strong> Nata Vacheishvili </strong>.
+        </p>
+        <p>
+        	We had a great deal of help from the websites: <a href="https://www.udemy.com/learn-nodejs-by-building-10-projects/learn/#/"> Udemy </a>
+        	This is a course with 10 node.js projects, we used the bookstore project and followed the course and it helped us 
+        	out to actually build the whole website. 
+        	However, there were great deal of errors with the code that he was providing and for fixing that we used 
+        	bunch of codes from <a href="www.stackoverflow.com"> StackOverflow </a>, videos from youtube like this: <a href="https://www.youtube.com/watch?v=e23EJMy1PdA"> Youtube Video </a> and github readme along with the code <a href="https://github.com/lmarkus/Kraken_Example_Shopping_Cart"> Github </a>
+		</p>
+		<p>
+			We used Kraken Framework, MongoDB with Mongoose for the database. Dust Templates, which we tried for the first time, and is very helpful, because it gave us ability to skip doing many loops and actually made it much easier then it would have been with html files.
+			The website integrates paypal and krakenjs provides security for it with csrf.
+
+		</p>
+		<p>
+			The home page of the website provides several books. Each one of them have a little description, exactly 60 characters and after that we have a button called Book Details. When clicking on that button, you go the book details page, where you have ability to add it to the cart. If you want to buy several same books, you should click the add to cart button as many times as the quantity you want to buy, because we could not implement the quantity text field in the cart. 
+			If you want to delete items from the cart you can click the empty cart and it will delete all the items. 
+		</p>
+		<p>
+			If you want to manage the books that are presented on the website, you can click on the button Admin Area, which will take you to the manager dashboard. If you click on the books, you will go to managing the books. There are two buttons: Edit and Delete.
+			Edit gives you ability to edit information about the particular book, like price or title. Delete, as you can guess, deletes the books. 
+			The same applies to Category section.
+			If you click on the view website, it will take you to the home page of the website.
+		</p>
+		<p>
+			It was a great term!
+			<strong> HAPPY HOLIDAYS EVERYONE ! </strong>
+		</p>
+      </div>
+    </div>
+{/body}

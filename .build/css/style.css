@@ -1,0 +1,54 @@
+.top-bar{
+    margin-bottom:30px;
+}
+
+.top-bar ul li a {
+    font-size:18px;
+    font-family: 'Lora', serif;
+}
+
+body{
+    background-color:#F5FDFD;
+    font-family: 'Lora', serif;
+}
+
+ul{
+    list-style:none;
+    margin:0;
+}
+
+footer{
+    margin-top:50px;
+    padding:12px;
+    text-align:center;
+}
+
+.book{
+    text-align:center;
+}
+
+.book h4{
+    margin-top:10px;
+}
+
+.price{
+    margin:7px;
+    font-size:20px;
+}
+
+[class*="column"]+[class*="column"]:last-child{
+    float:left;
+}
+
+.price span{
+    
+}
+
+h2 span{
+    font-size:15px;
+}
+
+h1{
+    color:#3F1F16;
+    font-family: 'Lora', serif;
+}
